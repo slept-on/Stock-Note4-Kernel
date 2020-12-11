@@ -24,13 +24,13 @@ to build there own Linux kernel for the Samsung Note 4.
 
 > Open terminal and install the following packages: (copy/paste)
 
-      sudo apt-get install git ccache automake lzop bison gperf build-essential zip curl zlib1g-dev zlib1g-dev:i386 g++-multilib python-networkx libxml2-utils bzip2 libbz2-dev libbz2-1.0 libghc-bzlib-dev squashfs-tools pngcrush schedtool dpkg-dev liblz4-tool make optipng
+    sudo apt-get install git ccache automake lzop bison gperf build-essential zip curl zlib1g-dev zlib1g-dev:i386 g++-multilib python3-networkx libxml2-utils bzip2 libbz2-dev libbz2-1.0 libghc-bzlib-dev squashfs-tools pngcrush schedtool dpkg-dev liblz4-tool make optipng
   
 * Source Code
 
 > Clone source by entering the following:
 
-      git clone https://github.com/slept-on/Stock-Note4-Kernel.git -b N910[F][G][P][T][T3][V]
+    git clone https://github.com/slept-on/Stock-Note4-Kernel.git -b N910[F][G][P][T][T3][V]
 
 * Toolchain: arm-eabi-4.8
 
@@ -38,11 +38,11 @@ to build there own Linux kernel for the Samsung Note 4.
 
 > To use google's prebuilt toolchain clone this:
 
-      git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8
+    git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8
       
 > I prefer UberTC's prebuilt toolchain. If you would like to as well, clone this:
 
-      git clone https://bitbucket.org/UBERTC/arm-eabi-4.8.git
+    git clone https://bitbucket.org/UBERTC/arm-eabi-4.8.git
 
 
 
